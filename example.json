@@ -1,0 +1,87 @@
+[
+    {
+        "incidentId":  0,
+        "incidentUri":  "https://security.microsoft.com/incidents/0",
+        "redirectIncidentId":  null,
+        "incidentName":  "Geen data",
+        "createdTime":  "2021-08-24T19:33:36.0266667Z",
+        "lastUpdateTime":  "2021-09-02T11:01:16.85Z",
+        "assignedTo":  null,
+        "classification":  "TruePositive",
+        "determination":  "Other",
+        "status":  "Resolved",
+        "severity":  "Medium",
+        "tags":  [
+
+                 ],
+        "comments":  [
+
+                     ],
+        "alerts":  [
+                       {
+                           "alertId":  "0_0",
+                           "providerAlertId":  "ab0_0",
+                           "incidentId":  0,
+                           "serviceSource":  "MicrosoftDefenderForEndpoint",
+                           "creationTime":  "2021-08-24T19:01:56.7542666Z",
+                           "lastUpdatedTime":  "2021-09-02T11:01:16.89Z",
+                           "resolvedTime":  "2021-08-24T19:28:08.5642412Z",
+                           "firstActivity":  "2021-08-24T19:00:26.0639698Z",
+                           "lastActivity":  "2021-08-24T19:01:47.0767432Z",
+                           "title":  "Geen data",
+                           "description":  "Geen data",
+                           "category":  "SuspiciousActivity",
+                           "status":  "Geen data",
+                           "severity":  "Low",
+                           "investigationId":  0,
+                           "investigationState":  "Geen data",
+                           "classification":  "Geen data",
+                           "determination":  "Other",
+                           "detectionSource":  "WindowsDefenderAv",
+                           "detectorId":  "6a5bcc32-80ed-4e27-96d9-4b34289134a1",
+                           "assignedTo":  "user@domein.com",
+                           "actorName":  null,
+                           "threatFamilyName":  "Geen data",
+                           "mitreTechniques":  [
+
+                                               ],
+                           "devices":  [
+                                           {
+                                               "mdatpDeviceId":  "72f62bf85a7e6dd944f36e7e941d97eee6f3e865",
+                                               "aadDeviceId":  "6c089d32-87f7-4893-85e7-5bc32971f653",
+                                               "deviceDnsName":  "laptop.domein.tld",
+                                               "osPlatform":  "Windows10",
+                                               "version":  "20H2",
+                                               "osProcessor":  "x64",
+                                               "osBuild":  19042,
+                                               "healthStatus":  "Active",
+                                               "riskScore":  "None",
+                                               "rbacGroupName":  null,
+                                               "firstSeen":  "2020-08-11T06:57:05.3711897Z",
+                                               "tags":  [
+
+                                                        ],
+                                               "defenderAvStatus":  "Updated",
+                                               "onboardingStatus":  "Onboarded",
+                                               "vmMetadata":  null
+                                           }
+                                       ],
+                           "entities":  [
+                                            {
+                                                "entityType":  "User",
+                                                "evidenceCreationTime":  "2021-08-24T19:01:57.25Z",
+                                                "verdict":  "Suspicious",
+                                                "remediationStatus":  "None",
+                                                "accountName":  "XXX",
+                                                "domainName":  "DOMEIN",
+                                                "userSid":  "S-1-5-21-1844237615-156789456-682003330-2145",
+                                                "aadUserId":  "46eb7b81-96e4-47b4-8c3a-b9efecd69257",
+                                                "userPrincipalName":  "user@domein.tld"
+                                            }
+                                        ]
+                       }
+                       
+                     
+                   ]
+    }
+]
